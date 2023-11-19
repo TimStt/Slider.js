@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="moduls/slider_module.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
+    <title>Slider</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__visible" id="slider">
+              <img
+                src="img/slide1.jpg"
+                draggable="false"
+                alt="Природа"
+                class="slider__img"
+                loading="lazy"
+              />
+              <img
+                src="img/slide2.jpg"
+                draggable="false"
+                alt="Природа"
+                class="slider__img"
+                loading="lazy"
+              />
+              <img
+                src="img/slide3.jpg"
+                draggable="false"
+                alt="Природа"
+                class="slider__img"
+                loading="lazy"
+              />
+              <img
+                src="img/slide4.jpg"
+                draggable="false"
+                alt="Природа"
+                class="slider__img"
+                loading="lazy"
+              />
+            </div>
+            <div class="slider__pagination">
+              <button
+                class="slider__pagination__btn slider__pagination__btn__active"
+              ></button>
+              <button class="slider__pagination__btn"></button>
+              <button class="slider__pagination__btn"></button>
+              <button class="slider__pagination__btn"></button>
+            </div>
+            <button class="slider__btn slider__btn__return">
+              <svg
+                class=""
+                width="20"
+                height="38"
+                viewBox="0 0 20 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.688883 17.7053L17.3399 0.423688C17.8855 -0.142191 18.7688 -0.14124 19.3134 0.426615C19.8576 0.994397 19.8562 1.91416 19.3106 2.48048L3.65064 18.7335L19.3111 34.9865C19.8567 35.5528 19.8581 36.472 19.314 37.0399C19.0409 37.3245 18.6833 37.4669 18.3256 37.4669C17.9688 37.4669 17.6125 37.3255 17.34 37.0428L0.688883 19.7616C0.426126 19.4896 0.278681 19.1193 0.278681 18.7335C0.278681 18.3477 0.426548 17.9779 0.688883 17.7053Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button class="slider__btn slider__btn__next">
+              <svg
+                class=""
+                width="20"
+                height="38"
+                viewBox="0 0 20 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.688883 17.7053L17.3399 0.423688C17.8855 -0.142191 18.7688 -0.14124 19.3134 0.426615C19.8576 0.994397 19.8562 1.91416 19.3106 2.48048L3.65064 18.7335L19.3111 34.9865C19.8567 35.5528 19.8581 36.472 19.314 37.0399C19.0409 37.3245 18.6833 37.4669 18.3256 37.4669C17.9688 37.4669 17.6125 37.3255 17.34 37.0428L0.688883 19.7616C0.426126 19.4896 0.278681 19.1193 0.278681 18.7335C0.278681 18.3477 0.426548 17.9779 0.688883 17.7053Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
